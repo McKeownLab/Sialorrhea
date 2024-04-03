@@ -7,7 +7,7 @@ import os
 
 #set parameters
 # Path to the video file
-video_path = 'M:\Video Assessment_Atefeh\\booth_imitation_happy'
+video_path = 'M:\Video Assessment_Atefeh\\booth_txt_happy'
 # Path to the csv folder
 csv_folder = 'M:\Video Assessment_Atefeh\sialorrhea\landmarks_csv'
 

@@ -3,11 +3,14 @@ import numpy as np
 import os
 
 # Path to the folder containing landmarks CSV files
-landmarks_csv_folder = 'Z:\\Video Assessment_Atefeh\\sialorrhea\\landmarks_csv'
+#landmarks_csv_folder = 'Z:\\Video Assessment_Atefeh\\sialorrhea\\landmarks_csv'
+landmarks_csv_folder = 'D:\Codes\Python\FacialAsymmetry\data\working\csv-landmarks\HC'
 # Path to the features definition file
+#features_definition_path = '.\\csv\\Features_facial_video_analysis.csv'
 features_definition_path = '.\\csv\\Features_facial_video_analysis.csv'
 # Path to the folder where the features CSV files will be saved
-features_csv_folder = 'Z:\\Video Assessment_Atefeh\\sialorrhea\\features_csv'
+#features_csv_folder = 'Z:\\Video Assessment_Atefeh\\sialorrhea\\features_csv'
+features_csv_folder = 'D:\Codes\Python\FacialAsymmetry\data\working\csv-unasymmetry-features\HC'
 
 # Ensure the output folder exists
 os.makedirs(features_csv_folder, exist_ok=True)

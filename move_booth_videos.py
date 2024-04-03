@@ -6,7 +6,7 @@ username = os.environ.get('CWL_USERNAME')
 password = os.environ.get('CWL_PASS')
 subprocess.call(f'net use J: \\\\files.ubc.ca\\team\\PPRC\\Camera /user:ead\\{username} {password}', shell=True)
 base_directory = 'J:/CAMERA Booth Data/Booth/' 
-dest_directory = 'J:/Video Assessment_Atefeh/booth_txt_disgust/'
+dest_directory = 'J:/Video Assessment_Atefeh/booth_txt_happy/'
 import os
 import shutil
 
@@ -33,7 +33,7 @@ def copy_videos(src_directory, dest_directory):
                         for video in os.listdir(face_path):
                             video_path = os.path.join(face_path, video)
                             # Check if it's a file (to handle only video files)
-                            if os.path.isfile(video_path) and video_path.endswith('facial_expression_disgust.mp4'):
+                            if os.path.isfile(video_path) and video_path.endswith('facial_expression_happy.mp4'):
                                 new_name = f"{user_id}_{timestamp}_{video}"
                                 dest_path = os.path.join(dest_directory, new_name)
                                 if not os.path.exists(dest_path):

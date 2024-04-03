@@ -1,0 +1,26 @@
+Feature,Saliva_Column,Correlation,P-Value
+20_happy,Q2. II. How often do you experience increased amounts or loss of saliva?,-0.35380175003225395,0.03426821448160053
+22_happy,Q1. Do you experience loss of saliva during the day?,-0.341678765730641,0.04139390803490226
+26_happy,Q1. Do you experience loss of saliva during the day?,0.3660608183590456,0.02811379085082681
+28_happy,Q1. Do you experience loss of saliva during the day?,0.37194612571386937,0.025500145491989125
+33_happy,Q1. Do you experience loss of saliva during the day?,0.368164427777139,0.027155374412179616
+1_neutral,Q2. II. How often do you experience increased amounts or loss of saliva?,0.3642742611363639,0.028949456466812865
+1_neutral,Q7. Does the loss of saliva limit you in contacts with others?,0.43157743153306327,0.008584306031515521
+1_neutral,Q9. How bothered are you as a result of your (loss of) saliva?,0.3411556900077823,0.041726444794750975
+2_neutral,Q7. Does the loss of saliva limit you in contacts with others?,0.34041111558868653,0.04220351682209034
+9_neutral,Q1. Do you experience loss of saliva during the day?,0.3605810669600026,0.030741743765056666
+9_neutral,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.38913007690917056,0.01899237129709186
+9_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.3583070754787838,0.03188984911930942
+10_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.3716818474269855,0.025613042940022944
+16_neutral,Q1. Do you experience loss of saliva during the day?,0.41508549107241616,0.011824261232181298
+22_neutral,Q7. Does the loss of saliva limit you in contacts with others?,-0.3472297618249605,0.03799528068670115
+26_neutral,Q1. Do you experience loss of saliva during the day?,0.45556208716776203,0.0052375693031701176
+26_neutral,Q2. II. How often do you experience increased amounts or loss of saliva?,0.39486503418286223,0.017156603925678873
+26_neutral,Q7. Does the loss of saliva limit you in contacts with others?,0.34842263843286814,0.03729537267504566
+27_neutral,Q2. II. How often do you experience increased amounts or loss of saliva?,0.3856375761860761,0.020188616528788266
+28_neutral,Q1. Do you experience loss of saliva during the day?,0.41458804221737255,0.011936197254142984
+33_neutral,Q1. Do you experience loss of saliva during the day?,0.4230677066311299,0.010146049837170419
+33_neutral,Q7. Does the loss of saliva limit you in contacts with others?,0.3565608401534557,0.03279512293296166
+37_neutral,Q1. Do you experience loss of saliva during the day?,0.4262869790397826,0.00952898145252901
+37_neutral,Q2. II. How often do you experience increased amounts or loss of saliva?,0.34070655106010006,0.042013697514178674
+37_neutral,Q7. Does the loss of saliva limit you in contacts with others?,0.3891239322735036,0.018994422784572848
