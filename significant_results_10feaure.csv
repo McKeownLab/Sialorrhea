@@ -1,12 +1,11 @@
 Feature,Saliva_Column,Correlation,P-Value
-1_happy,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.39345549414368786,0.017593418870014928
-2_happy,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.3502837915830066,0.03622431964496183
-3_happy,Q1. Do you experience loss of saliva during the day?,0.33721454995581945,0.04430196429082556
-9_happy,Q1. Do you experience loss of saliva during the day?,-0.3885868779785769,0.01917444322588315
-1_neutral,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.4628588584631451,0.004475085179361752
-1_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.3865880492873982,0.019857009720037858
-2_neutral,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.3399351620122226,0.042510776857039065
-2_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.40888507083107417,0.013284887949074155
-9_neutral,Q1. Do you experience loss of saliva during the day?,-0.4110497273832605,0.012758563658050531
-9_neutral,Q2. II. How often do you experience increased amounts or loss of saliva?,-0.38970620123802097,0.018800842693335908
-9_neutral,Q7. Does the loss of saliva limit you in contacts with others?,-0.359802773594358,0.031130815732812928
+2_happy,Q1,-0.3355680732492108,0.04875692211511754
+8_happy,Q3,-0.3999920916333891,0.01727541176024594
+1_neutral,Q2,-0.3530986028586274,0.03746636424461754
+2_neutral,Q6,-0.4257503493907271,0.010774110734248431
+2_neutral,Q8,-0.3581652020659085,0.034632025350208005
+3_neutral,Q4,-0.37870795874359536,0.024871257720637266
+4_neutral,Q8,-0.5011619959890952,0.0021642874330577164
+7_neutral,Q6,0.4322730073955149,0.009505668638524626
+7_neutral,Q8,0.36832486947591797,0.029474026182023008
+8_neutral,Q8,-0.36073317612500244,0.03326360712364763

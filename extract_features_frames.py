@@ -8,7 +8,7 @@ import dlib
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("OpenFace_2.2.0/shape_predictor_68_face_landmarks.dat")
 #for a folder with multiple images of face extract face landmarks using dlib next step is to extract features from the landmarks and return the features as a dataframe
-features_definition_path = '.\\csv\\ten_feature.csv'
+features_definition_path = '.\\csv\\ten_feature_new.csv'
 # Load the features definition
 features_definition = pd.read_csv(features_definition_path)
 
@@ -60,8 +60,8 @@ def extract_features_from_landmarks(landmarks):
     return features_data
 
 # example usage
-destination_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\first_neutral'
+destination_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\max_happiness'
 df = extract_features(destination_folder)
 # save df to csv file
-destination_csv = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\features_10_first_neutral.csv'
+destination_csv = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\features_10_max_happiness_v2.csv'
 df.to_csv(destination_csv, index=False)
