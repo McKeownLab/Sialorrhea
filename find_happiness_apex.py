@@ -61,7 +61,7 @@ def find_peak_smile_frame_in_all_folders(root_source_folder, destination_folder)
                 print(f"Peak smile frame '{peak_smile_frame}' copied to '{new_file_path}'.")
 
 # Define your root source folder where all sub-folders are located
-root_source_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\Facial Asymmetry\\csv\\booth_txt_happy\\aligned'
+root_source_folder = r'N:\Video Assessment_Atefeh\sialorrhea\new_merge'
 # Define the destination folder where you want to copy the peak smile frames
 destination_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\max_happiness'
 

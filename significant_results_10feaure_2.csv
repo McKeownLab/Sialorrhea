@@ -1,0 +1,34 @@
+Feature,Saliva_Column,Correlation,P-Value
+1_happy,Q3. Do you experience loss of saliva during the night?,-0.3139551845067213,0.02205911717749603
+1_happy,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.3323060257316016,0.015054584185264014
+1_happy,Q5. Does your (loss of) saliva impair your speech?,-0.3385930944455231,0.0131401137305066
+1_happy,Q7. Does the loss of saliva limit you in contacts with others?,-0.27248289311886587,0.048389701701429234
+2_happy,Q2. II. How often do you experience increased amounts or loss of saliva?,-0.29060904387592057,0.03477126699829242
+2_happy,Q3. Do you experience loss of saliva during the night?,-0.2874607643256909,0.036877316748044994
+2_happy,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.3051789049741097,0.02627913305191133
+2_happy,Q5. Does your (loss of) saliva impair your speech?,-0.3585598004272861,0.00837890722831206
+2_happy,Q7. Does the loss of saliva limit you in contacts with others?,-0.3512207147964586,0.009917868911687815
+2_happy,Total,-0.31590637695067597,0.021203011987607667
+4_happy,Q6. What do you have to do to remove saliva?,-0.3049021467452844,0.02642251432514304
+5_happy,Q6. What do you have to do to remove saliva?,-0.2807598391655679,0.04171183730073048
+5_happy,Q9. How bothered are you as a result of your (loss of) saliva?,-0.29292174259686865,0.03328850215201263
+1_neutral,Q3. Do you experience loss of saliva during the night?,-0.3266797730468935,0.016965117984727076
+1_neutral,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.3737873942729126,0.005832761596851396
+1_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.43641235849341115,0.001087567871290406
+1_neutral,Q7. Does the loss of saliva limit you in contacts with others?,-0.32043810351160995,0.019322419628459826
+1_neutral,Total,-0.30800856592917997,0.02485022160183749
+2_neutral,Q3. Do you experience loss of saliva during the night?,-0.3392117313958379,0.012963554933506956
+2_neutral,Q4.  Does your (loss of) saliva impair your eating and drinking?,-0.287541050364406,0.03682232886538709
+2_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.4928667321610439,0.0001773323494217901
+2_neutral,Q6. What do you have to do to remove saliva?,-0.2898425038561679,0.035274638469902066
+2_neutral,Q7. Does the loss of saliva limit you in contacts with others?,-0.3584693217346616,0.008396538949888266
+2_neutral,"Q8.  Does your loss of saliva limit you in doing activities inside or outside your home (work, hobbies)?",-0.32940915112299524,0.01601397265447302
+2_neutral,Q9. How bothered are you as a result of your (loss of) saliva?,-0.30797844970593735,0.024865078664526516
+2_neutral,Total,-0.4006782940837702,0.002948258815122777
+4_neutral,Q3. Do you experience loss of saliva during the night?,-0.28128188050335307,0.04131739985657521
+4_neutral,Q5. Does your (loss of) saliva impair your speech?,-0.3176847526637333,0.0204473554872621
+4_neutral,Q6. What do you have to do to remove saliva?,-0.41928827809401814,0.001777715039907412
+4_neutral,"Q8.  Does your loss of saliva limit you in doing activities inside or outside your home (work, hobbies)?",-0.4348346398126963,0.001139160244787689
+4_neutral,Q9. How bothered are you as a result of your (loss of) saliva?,-0.3409407228851279,0.012480857550190395
+4_neutral,Total,-0.34388390324956225,0.011694664733761361
+5_neutral,Q3. Do you experience loss of saliva during the night?,-0.2952770274534872,0.031832766262233726
