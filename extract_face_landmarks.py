@@ -66,9 +66,5 @@ def process_videos_in_folder(folder_path):
             video_path = os.path.join(folder_path, filename)
             process_video(video_path)
 
-# Example usage
-username = os.environ.get('CWL_USERNAME')
-password = os.environ.get('CWL_PASS')
-subprocess.call(f'net use M: \\\\files.ubc.ca\\team\\PPRC\\Camera /user:ead\\{username} {password}', shell=True)
 
 process_videos_in_folder(video_path)
