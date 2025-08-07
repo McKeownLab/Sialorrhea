@@ -8,7 +8,7 @@ import dlib
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("OpenFace_2.2.0/shape_predictor_68_face_landmarks.dat")
 #for a folder with multiple images of face extract face landmarks using dlib next step is to extract features from the landmarks and return the features as a dataframe
-features_definition_path = '.\\csv\\ten_all_features.csv'
+features_definition_path = '.\\csv\\ten_feature_mouth.csv'
 # Load the features definition
 features_definition = pd.read_csv(features_definition_path)
 
@@ -60,11 +60,9 @@ def extract_features_from_landmarks(landmarks):
     return features_data
 
 # example usage
-destination_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\max_happiness'
-#destination_folder = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\true_neutral'
 
-destination_csv = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\all_features_10_max_happiness.csv'
-#destination_csv = '\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\all_features_10_true_neutral.csv'
-
-df = extract_features(destination_folder)
-df.to_csv(destination_csv, index=False)
+for type in ['max_happiness', 'true_neutral']:
+    destination_folder = f'\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\{type}'
+    destination_csv = f'\\\\files.ubc.ca\\team\\PPRC\\Camera\\Video Assessment_Atefeh\\sialorrhea\\mouth_features_{type}.csv'
+    df = extract_features(destination_folder)
+    df.to_csv(destination_csv, index=False)
